@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+ //Properties
+  @IBOutlet weak var lblDate: UILabel!
+  @IBOutlet weak var lblTemp: UILabel!
+  @IBOutlet weak var lblLocation: UILabel!
+  @IBOutlet weak var imgWeather: UIImageView!
+  @IBOutlet weak var lblWeather: UILabel!
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
