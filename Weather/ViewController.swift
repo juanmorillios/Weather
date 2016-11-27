@@ -15,16 +15,27 @@ class ViewController: UIViewController {
   @IBOutlet weak var lblLocation: UILabel!
   @IBOutlet weak var imgWeather: UIImageView!
   @IBOutlet weak var lblWeather: UILabel!
+  
+  var weather = DataModel()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    weather.downloadData {
+      self.updateUI()
+    }
+    
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  func updateUI() {
+  
+    lblDate.text = weather.date
+    lblTemp.text = weather.tem
+    lblLocation.text = weather.location
+    lblWeather.text = weather.weather
+    imgWeather.image = UIImage(named: weather.weather)
+  
   }
-
 
 }
 

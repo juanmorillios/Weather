@@ -26,7 +26,7 @@
 		87DB0FD61DEA50250006296B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DB0FD91DEA50250006296B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DB0FDB1DEA50250006296B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87DB0FE11DEA597E0006296B /* DataModelWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelWeather.swift; sourceTree = "<group>"; };
+		87DB0FE11DEA597E0006296B /* DataModelWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModelWeather.swift; path = ../DataModelWeather.swift; sourceTree = "<group>"; };
 		B3B64010C8D7B2533A501D4A /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +45,6 @@
 		87DB0FC31DEA50250006296B = {
 			isa = PBXGroup;
 			children = (
-				87DB0FE11DEA597E0006296B /* DataModelWeather.swift */,
 				87DB0FCE1DEA50250006296B /* Weather */,
 				87DB0FCD1DEA50250006296B /* Products */,
 				E29FAECE65A757E6C7DC9714 /* Pods */,
@@ -66,6 +65,7 @@
 			children = (
 				87DB0FCF1DEA50250006296B /* AppDelegate.swift */,
 				87DB0FD11DEA50250006296B /* ViewController.swift */,
+				87DB0FE11DEA597E0006296B /* DataModelWeather.swift */,
 				87DB0FD31DEA50250006296B /* Main.storyboard */,
 				87DB0FD61DEA50250006296B /* Assets.xcassets */,
 				87DB0FD81DEA50250006296B /* LaunchScreen.storyboard */,
