@@ -12,6 +12,7 @@
 		87DB0FD51DEA50250006296B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DB0FD31DEA50250006296B /* Main.storyboard */; };
 		87DB0FD71DEA50250006296B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DB0FD61DEA50250006296B /* Assets.xcassets */; };
 		87DB0FDA1DEA50250006296B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DB0FD81DEA50250006296B /* LaunchScreen.storyboard */; };
+		87DB0FE21DEA597E0006296B /* DataModelWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DB0FE11DEA597E0006296B /* DataModelWeather.swift */; };
 		8C854B50E72E1893E432C414 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627CC0ACDB83D278BB5CC26B /* Pods_Weather.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		87DB0FD61DEA50250006296B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DB0FD91DEA50250006296B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DB0FDB1DEA50250006296B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DB0FE11DEA597E0006296B /* DataModelWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelWeather.swift; sourceTree = "<group>"; };
 		B3B64010C8D7B2533A501D4A /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 		87DB0FC31DEA50250006296B = {
 			isa = PBXGroup;
 			children = (
+				87DB0FE11DEA597E0006296B /* DataModelWeather.swift */,
 				87DB0FCE1DEA50250006296B /* Weather */,
 				87DB0FCD1DEA50250006296B /* Products */,
 				E29FAECE65A757E6C7DC9714 /* Pods */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DB0FD21DEA50250006296B /* ViewController.swift in Sources */,
+				87DB0FE21DEA597E0006296B /* DataModelWeather.swift in Sources */,
 				87DB0FD01DEA50250006296B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
