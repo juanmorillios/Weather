@@ -19,7 +19,7 @@ class DataModel {
   
   typealias JSONStandard = Dictionary<String, Any>
  
-  let url = URL(string: "http://api.openweathermap.org/data/2.5/weather?q=Barcelona&appid=a7bbbd5e82c675f805e7ae084f742024")
+  let url = URL(string: "http://api.openweathermap.org/data/2.5/weather?q=Cornelladellobregat&appid=6517933721ae021dd56c4074d0b9294f")
   
   var date: String {
   
